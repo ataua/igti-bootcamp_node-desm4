@@ -1,0 +1,20 @@
+version: '3.2'
+
+services:
+  app:
+    container_name: desm4-app
+    build: .
+    ports:
+      - 5678:5678
+    depends_on: 
+      - db
+
+  db:
+    container_name: desm4_db
+    image: postgres:15.2-alpine
+    environment:
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    ports:
+      - 5432:5432

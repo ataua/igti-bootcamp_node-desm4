@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testes do desafio M4 Cria produto corretamente 1`] = `
+Object {
+  "Codigo": "DESM4-12345",
+  "Descricao": "amarelo",
+  "Preco": 123.45,
+  "_changed": Set {},
+  "_options": Object {
+    "_schema": null,
+    "_schemaDelimiter": "",
+    "attributes": Array [
+      "Codigo",
+      "Descricao",
+      "Preco",
+      "createdAt",
+      "updatedAt",
+    ],
+    "isNewRecord": false,
+    "raw": true,
+  },
+  "_previousDataValues": Object {
+    "Codigo": "DESM4-12345",
+    "Descricao": "amarelo",
+    "Preco": 123.45,
+    "createdAt": 2023-03-27T23:27:28.354Z,
+    "updatedAt": 2023-03-27T23:27:28.354Z,
+  },
+  "dataValues": Object {
+    "Codigo": "DESM4-12345",
+    "Descricao": "amarelo",
+    "Preco": 123.45,
+    "createdAt": 2023-03-27T23:27:28.354Z,
+    "updatedAt": 2023-03-27T23:27:28.354Z,
+  },
+  "isNewRecord": false,
+  "uniqno": 1,
+}
+`;
